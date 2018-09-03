@@ -31,7 +31,7 @@ def most_frequent_words(n,massive_text):
     word_freq.reverse()
     return word_freq[:n]
 
-in_file = file_read("E:/Programmation/Python/fonctions perso/cryptography/txs - (TXexts Samples)/lorem.txs")
+in_file = file_read("text.txt")
 
 massive_text = """ """
 massive_text.replace("\n","")
