@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 def csv_import(path:str,log:bool = False) -> list:
     def convert_csv_data(data):
         def isFloat(s):
@@ -21,7 +23,7 @@ def csv_import(path:str,log:bool = False) -> list:
         lines  = f.readlines()
         print("|   Closing file.")
         f.close()
-       
+
     else :
         f = open(path,'r')
         lines  = f.readlines()
@@ -35,6 +37,6 @@ def csv_import(path:str,log:bool = False) -> list:
             buffer.append(convert_csv_data(element))
         lines.append(buffer)
     print("Done !")
-    return lines 
+    return lines
 
 csv_import("C:/Users/Admin/Desktop/TIPE/csv/bobinecentrée.csv",True)

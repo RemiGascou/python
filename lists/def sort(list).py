@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 def sort_ins(list_in):
     buffer,sorted = [],[list_in[0]]
     for element in list_in[1:]:

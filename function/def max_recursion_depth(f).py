@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 def max_recursion_depth(f, startingstep = 1):
     """This function return the maximum recursion depth for a given function f."""
     """/!\ Don't forget to disable verbose mode on your function as max_recursion_depth(f) is using multiples tries."""

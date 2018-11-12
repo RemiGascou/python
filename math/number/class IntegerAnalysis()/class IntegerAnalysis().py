@@ -1,7 +1,7 @@
 class IntegerAnalysis():
     def __init__(self,n):
         self.n = n
-    
+
     ## sign
     def sign(self):
         if self.n >= 0 :
@@ -51,17 +51,17 @@ class IntegerAnalysis():
                     p = p//k
             return factors
         analysis = [sign(),isPrime(),prime_factors()]
-        
+
         if verbose == True:
-            print("◘ Analysis of integer",x)
+            print("Analysis of integer",x)
             print("|   Sign :",analysis[0])
             print("|   Prime :",analysis[1])
             print("|   Prime factors :",analysis[2])
-            
+
         return analysis
-        
-        
-x = -10  
+
+
+x = -10
 ia = IntegerAnalysis(x)
 ia.fullAnalysis(True)
 #print(ia.fullAnalysis(True))

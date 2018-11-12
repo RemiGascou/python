@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 def convert_csv_data(data):
     def isFloat(s):
         try:

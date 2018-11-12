@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 def countletters(str_in):
     str_in = list(str_in.lower())
     occurences = []

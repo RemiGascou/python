@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 def file_read(path,log = False):
     if log == True:
         print("Opening file ",path,"...")

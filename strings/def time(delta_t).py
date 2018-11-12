@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 def time(delta_t, units = ["heures","minutes","secondes","milisecondes"]):
     out = ""
     if delta_t // 3600 != 0: # heures

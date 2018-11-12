@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 ## Range from a to b float step.
 
 def rangefs(a,b,f=1.0):

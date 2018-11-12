@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 def create_grid(height,width,element):
     liste = []
     liste_row = []

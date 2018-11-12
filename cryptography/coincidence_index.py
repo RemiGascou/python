@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 def ic(text):
     alphabet = "abcdefghijklmnopqrstuvwxyz" #On crée un string contenant l'alphabet
     alphabet = alphabet .upper()            #On le passe en majuscules
@@ -14,12 +16,12 @@ def ic(text):
 def coincidence_index(text):
     """
     Index of Coincidence
-    
+
     The index of coincidence is a measure of how similar a frequency distribution is to the uniform distribution.
     The I.C. of a piece of text does not change if the text is enciphered with a substitution cipher.
     """
     return sum([text.count("abcdefghijklmnopqrstuvwxyz".upper()[k])*(text.count("abcdefghijklmnopqrstuvwxyz".upper()[k])-1) for k in range(0,len("abcdefghijklmnopqrstuvwxyz".upper()))])/(len(text)*(len(text)-1))
-    
+
 
 e = """PUMWMCBEYNCCPKOGCLTHPORLDCMDETCTGCIYPEZKRRPHJTWAEENNCCPKIOYDGHVMEESETLSEDEAODATSPQAKICLWPYIELLEIDSUTYZXIUENETGACKEJDEPLBLTNOEPANOLTRZVAEPOEPUNWTOEJYMXPXRZCKPJELXORTELMJTHLEVECYOYZREBEYEZFOKHEYNVYGTAYOHETRYAEIATHKPJTEIFOCXWALNIBFIFLNCETSNKHEAFFLZCKPJMSLSEOESEECRJAXAEDTSPTRZVAEPOEPISFDIDKODPNVYGTIETWCFMPFEETZONLWPYZNFPLWISLEEZGODPUEPXHVPRTGETVKEJMESVDOYELEGUBWTGKVYBPNEUJEOQELIJPUMWMCBEYDNENSEFCPILPSHLCIDRLLZHMNXUSPCWAEEADJENUCOYGINZENEXITYODQZVEECRJAXIEGCZYXEETAYOZEIIFJTRGUIGTEELJIGYLXUIESLYHPIIVLEIKVYSNLRBVKEAEWETREEPRSLRIYRSNCYTSPSWEERDZJTYEPCTZAKEKPJWCRNDPNVYGTCZYXEETAYOGRVATPOMGZTAWDMGEATFCI"""
 
