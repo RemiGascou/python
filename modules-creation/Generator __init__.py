@@ -1,4 +1,10 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# File name          :
+# Author             : Remi GASCOU
+# Date created       :
+# Date last modified :
+# Python Version     : 3.*
 
 ##__init__.py generator :
 
@@ -21,7 +27,7 @@ def tab(varname:str, data:list):
 def import_all(working_dir:str):
     return [file[:-3] for file in os.listdir(working_dir) if file.endswith(".py") and not file.startswith("__")]
 
-working_dir = r"D:\Projets GIT\Quetzal\QuetzalProject"
+working_dir = r"C:/e/"
 
 
 var_all_import = tab("__all__", import_all(working_dir))

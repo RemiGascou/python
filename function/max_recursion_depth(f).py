@@ -1,4 +1,10 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# File name          :
+# Author             : Remi GASCOU
+# Date created       :
+# Date last modified :
+# Python Version     : 3.*
 
 def max_recursion_depth(f, startingstep = 1):
     """This function return the maximum recursion depth for a given function f."""

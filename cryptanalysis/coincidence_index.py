@@ -1,4 +1,10 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# File name          : 
+# Author             : Remi GASCOU
+# Date created       :
+# Date last modified :
+# Python Version     : 3.*
 
 def ic(text):
     alphabet = "abcdefghijklmnopqrstuvwxyz" #On crée un string contenant l'alphabet
